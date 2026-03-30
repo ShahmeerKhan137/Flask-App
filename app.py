@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Hello! First Flaskk app "
+    return "Hello! First Flaskk app, first change"
 
 # Only run when executed directly
 if __name__ == "__main__":
